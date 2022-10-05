@@ -6,18 +6,43 @@ As a new Java developer, you will be required to familiarize yourself with exist
     * Method names
     * Variables
 * Using Java terminology, break down every piece of the method **convertF2K**.
-    * What is the access modifier?
-    * Is it a class or object method, how do you know?
-    * What is its return type?
-    * What parameters does it require, and what are the parameter(s) datatype(s)?
-    * Describe for me how the body of the method executes (i.e. its flow of execution).
+  *  public static double convertF2K(double fahrenheit){}
+  * 
+      * What is the access modifier?
+      * ^^The access modifier is Public.
+      * 
+      * Is it a class or object method, how do you know?
+      * ^^ It is a class method, it is static within the class.
+      * 
+      * What is its return type?
+      * ^^ The return type is double.
+      * 
+      * What parameters does it require, and what are the parameter(s) datatype(s)?
+      * ^^ The parameter it's asking for is fahrenheit.
+      * 
+      * Describe for me how the body of the method executes (i.e. its flow of execution).
+      * ^^ This method returns double of the value inputted if it was converted from Fahrenheit to Celsius.
+      * 
 * Using Java terminology, break down method **getUnitChoice**.
+  * public static String getUnitChoice() {}
+  * 
     * What is the access modifier?
+    * ^^ The access modifier is Public.
+    * 
     * Is it a class or object method, how do you know?
+    * ^^ It is a class method, being static as a part of the class.
+    * 
     * What is its return type?
+    * ^^ The return type is String. 
+    * 
     * What parameters does it require, and what are the parameter(s) datatype(s)?
+    * ^^ No parameters are defined in the parenthesis.
+    * 
     * Describe for me how the body of the method executes (i.e. its flow of execution).
+    * ^^ Prints out a statement dependent on String argument in main for C,F,K Q if it returns true.
+    * 
     * How do the format specifiers differ than what you've seen before and what do they do?
+    * ^^ Creating columns within the printf statement
 
 ## Part 2: - Implement Missing Method: convertK2F
 This Part is aimed at teaching you to use methods and code you have to add new functionality to existing code. In this case you will add the missing conversion method, but you don't need to know math :-)
